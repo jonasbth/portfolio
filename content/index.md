@@ -1,11 +1,14 @@
 ---
-Title: Home
-Description: This is our index page.
+Title: Hem
+Description: Jonas portfolio
 ---
 
-Home page
+Om mig
 ==========================
 
-The source for this page is in `content/index.md`.
+Jag heter Jonas och läser webbprogrammering på distans vid Blekinge Tekniska Högskola (BTH). Tidigare har jag
+sysslat med strömningsteknik vid LTH och jobbat en del som konsult inom systemutveckling/<wbr>programmering.
 
-This is a sample home page written in markdown with some frontmatter defined.
+Numera bor jag i Helsingborg i ett hus från 40-talet, med mycket att göra både på huset och i trädgården.
+
+![Image of me](image/Avatar26_148.jpg) {.small}
