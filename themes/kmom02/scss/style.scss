@@ -1,0 +1,114 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'typography';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'test';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*************************
+ * Flexbox vertical layout
+ *************************/
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+// Let main content grow vertically,
+// but don't shrink beyond its intrinsic height
+.main {
+    flex: 1 0 auto; // flex-grow: 1; flex-shrink: 0; flex-basis: auto;
+}
+
+// Header and footer neither grow or shrink beyond their intrinsic height
+.header,
+.footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    flex-basis: 10%;  // Height is 10%
+}
+
+/*************
+ * Site header
+ *************/
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 2em 2.5em 3em 3em;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.title {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 3em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+/**************
+ * Main content
+ **************/
+.main .small {
+    width: 100px;  // An image
+}
+
+.main .float-left {
+    float: left;
+    padding: 0 1em 1em 0;
+}
+
+/********
+ * Footer
+ ********/
+.footer {
+    padding: 0.5em 1em;
+}
+

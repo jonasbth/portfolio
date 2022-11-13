@@ -1,0 +1,25 @@
+@use 'sass:color';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lora:ital@1&family=Open+Sans:wght@600&display=swap');
+
+// Colors
+$body-color: #333;
+$header-font-color: #222;
+$footer-font-color: #fff;
+$accent-color: #fea400;
+$accent-color-2: #9cffad;
+$accent-color-3: #2eae9b;
+$background-color: #fff;
+$footer-background-color: #222;
+$light-background: #eee;
+
+$dark-accent-color-3: color.scale($accent-color-3, $lightness: -30%);
+
+// Fonts
+$sans-serif: 'Open Sans', sans-serif;
+$serif: 'Lora', serif;
+$cursive: 'Amatic SC', cursive;
+
+// Sizes
+$base-line-height: 1.4;
+$base-font-size: 1.25rem;   // 1.1rem (efo)
+$vertical-rhythm: $base-line-height * $base-font-size;

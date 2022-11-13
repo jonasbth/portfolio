@@ -1,0 +1,84 @@
+/*
+ * typography.scss
+ */
+html {
+    font-size: 100%;
+    //font-size: 88.89%;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+        //font-size: 100%;
+    }
+}
+
+body {
+    font-family: $serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $body-color;
+    background-color: $background-color;
+}
+
+// In part from Typography Handbook
+.main {
+    max-width: 58rem;
+    min-width: 50%;
+    padding: 0 1.5rem;
+    margin: 0 auto $vertical-rhythm; // * 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header a {
+    font-family: $sans-serif;
+    color: $header-font-color;
+}
+
+.main a {
+    color: $dark-accent-color-3;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: $sans-serif;
+    font-size: 1.8 * $base-font-size;
+    margin-top: 0;
+    margin-bottom: $vertical-rhythm; // * 2;
+}
+
+.title h1 {
+    font-size: 2 * $base-font-size;
+}
+
+.main h1 {
+    border-bottom: 2px solid;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: $vertical-rhythm;
+}
+
+.title p {
+    font-family: $cursive;
+    font-size: 1.6 * $base-font-size;
+}
+
+.footer {
+    color: $footer-font-color;
+    background-color: $footer-background-color;
+}
+
+.footer a {
+    color: $footer-font-color;
+}
+
+.social a {
+    font-size: 1.6 * $base-font-size;
+    padding: 0 0.3em;
+}
+
