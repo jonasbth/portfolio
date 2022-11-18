@@ -1,0 +1,31 @@
+/*
+ * code.scss
+ */
+code {
+    margin: 0 0.1em;
+    padding: 0 0.2em 0.1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background-color: $code-background-color;
+
+    font-family: $monospace;
+    font-size: 0.8 * $base-font-size;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background-color: $code-background-color;
+    white-space: pre-wrap;
+
+    code {
+        display: block;
+        color: $dark-accent-color;
+        margin: 0;
+        padding: 1.1111em 0;
+        border: 0 none;
+        background: transparent;
+    }
+}
+
