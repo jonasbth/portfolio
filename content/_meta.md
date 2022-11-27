@@ -8,10 +8,16 @@ Social:
     - title: Syntactically Awesome Style Sheets
       url: https://sass-lang.com
       icon: fab fa-sass
-    - title: Typography Handbook
-      url: https://typographyhandbook.com/
-      icon: fas fa-font
-    - title: MDN
-      url: https://developer.mozilla.org/en-US/docs/Web
-      icon: far fa-file-code
+#    - title: Typography Handbook
+#      url: https://typographyhandbook.com/
+#      icon: fas fa-font
+#    - title: MDN
+#      url: https://developer.mozilla.org/en-US/docs/Web
+#      icon: far fa-file-code
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

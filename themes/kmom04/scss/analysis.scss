@@ -1,0 +1,25 @@
+/*
+ * analysis.scss
+ */
+ 
+.color-palette {
+    border-spacing: 4px;
+    border-collapse: separate;
+    margin: $vertical-rhythm 1em;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .color-palette {
+        margin: $vertical-rhythm 0;
+
+        td {
+            height: 40px;
+            width: 40px;
+        }
+    }
+}

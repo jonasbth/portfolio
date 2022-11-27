@@ -1,0 +1,71 @@
+/*
+ * mobile-menu.scss
+ */
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1em 1em 1em 0;
+    list-style: none;
+
+    li {
+        padding: 0 0.5em;
+        border-radius: 10px;
+    }
+    
+    li:hover {
+        background-color: $accent-color;
+    }
+    
+    .active {
+        background-color: $light-background;
+    }
+}
+
+.nav-toggle {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        margin: -2.4em 0 0;
+        padding: 0 0 1em;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            a {
+                display: block;
+                padding: 0.5em 0;
+            }
+        }
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+}
