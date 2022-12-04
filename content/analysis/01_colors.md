@@ -30,7 +30,7 @@ Resultat
 
 ### Avanza
 
-![Avanza bank](../image/Avanza1.png) {.float-left .medium}
+![Avanza bank](../image/analysis/Avanza1.png) {.float-left .medium}
 
 <table class="color-palette">
 <tr>
@@ -53,7 +53,7 @@ ett lugnt intryck, vilket understryks av den analoga färgprofilen.
 
 ### Länsförsäkringar
 
-![Länsförsäkringar bank](../image/LF4.png) {.float-left .medium}
+![Länsförsäkringar bank](../image/analysis/LF4.png) {.float-left .medium}
 
 <table class="color-palette">
 <tr>
@@ -77,7 +77,7 @@ syftar till att ge en känsla av samhörighet.
 
 ### Resurs bank
 
-![Resurs bank](../image/Resurs1.png) {.float-left .medium}
+![Resurs bank](../image/analysis/Resurs1.png) {.float-left .medium}
 
 <table class="color-palette">
 <tr>

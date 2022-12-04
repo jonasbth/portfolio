@@ -1,0 +1,161 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'colors-dark';
+@import 'variables';
+
+@import 'typography';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'technologies-dark';
+@import 'gallery';
+@import 'analysis';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*************************
+ * Dark mode modifications
+ *************************/
+.header {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), transparent 90%);
+    
+    .logo {
+        background: radial-gradient(circle at 55%, rgba(255, 255, 255, 0.5), transparent 45%);
+    }
+}
+ 
+.footer {
+    background: linear-gradient(to bottom, transparent 40%, rgba(255, 255, 255, 0.06));
+}
+
+.main img {
+    filter: brightness(80%);
+}
+
+@media (max-width: 767px) {
+    .header .logo {
+        background: radial-gradient(circle at 50% 35%, rgba(255, 255, 255, 0.5), transparent 40%);
+    }
+}
+
+/*************************
+ * Flexbox vertical layout
+ *************************/
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+// Let main content grow vertically,
+// but don't shrink beyond its intrinsic height
+.main {
+    flex: 1 0 auto; // flex-grow: 1; flex-shrink: 0; flex-basis: auto;
+}
+
+// Header and footer neither grow or shrink beyond their intrinsic height
+.header,
+.footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    flex-basis: 10%;  // Height is 10%
+}
+
+/*************
+ * Site header
+ *************/
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 2em 2em 2.5em 3em;
+
+    img {
+        width: 200px;
+        min-width: 150px;
+    }
+}
+
+.title {
+    padding: 3em 1em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        padding: 1em 0.8em 3em;
+        
+        img {
+            width: 120px;
+            min-width: 80px;
+        }
+    }
+    
+    .title {
+        min-width: 50%;
+        padding: 1em 2em 3em 0;
+    }
+}
+
+/**************
+ * Main content
+ **************/
+.main {
+    /* Images */
+    .small {
+        width: 100px;
+    }
+
+    .medium {
+        width: 250px;
+    }
+
+    .float-left {
+        float: left;
+        padding: 0 1.5em 1em 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        /* Images */
+        .float-left {
+            float: none;
+            padding: 0 0 1em;
+        }
+    }
+}
+
+/********
+ * Footer
+ ********/
+.footer {
+    padding: 0.5em 1em;
+}
+

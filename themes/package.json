@@ -8,9 +8,9 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom04/scss/style.scss kmom04/css/style.css --no-source-map",
-    "style-dark": "sass kmom04/scss/style-dark.scss kmom04/css/style-dark.css --no-source-map",
-    "style-min": "sass kmom04/scss/style.scss kmom04/css/style.min.css --no-source-map --style compressed"
+    "style": "sass kmom05/scss/style.scss kmom05/css/style.css --no-source-map",
+    "style-dark": "sass kmom05/scss/style-dark.scss kmom05/css/style-dark.css --no-source-map",
+    "style-min": "sass kmom05/scss/style.scss kmom05/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
