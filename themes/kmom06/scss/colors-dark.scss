@@ -1,0 +1,16 @@
+@use 'sass:color';
+
+// Colors
+$body-color: #ddd;
+$header-font-color: #fafafa;
+$footer-font-color: #fff;
+$accent-color: #fea400;
+$accent-color-2: #9cffad;
+$accent-color-3: #2eae9b;
+$background-color: #272727;
+$code-background-color: #ccc;
+$footer-background-color: #272727;
+$light-background: #222;
+
+$dark-accent-color: color.scale($accent-color, $lightness: -70%);
+$dark-accent-color-3: color.scale($accent-color-3, $lightness: 0%);

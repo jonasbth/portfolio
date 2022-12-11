@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cabin:wght@600&family=Lora:ital@1&family=Source+Code+Pro&display=swap');
+
+// Fonts
+//$sans-serif: 'Open Sans', sans-serif;
+$sans-serif: 'Cabin', sans-serif;
+$serif: 'Lora', serif;
+$cursive: 'Amatic SC', cursive;
+$monospace: 'Source Code Pro', monospace;
+
+// Sizes
+$base-line-height: 1.4;
+$base-font-size: 1.25rem;   // 1.1rem (efo)
+$vertical-rhythm: $base-line-height * $base-font-size;

@@ -87,7 +87,6 @@ För att rangordna webbplatserna, så skulle jag säga att Hornbach är i topp o
 tunga enligt mig, med mycket bilder och resurser som laddas. Byggmax ger definitivt inte en godkänd upplevelse, som torde ligga på
 en handfull sekunder i laddningstid, enligt mig.
 
-
 Övrigt
 -----------------------
 
